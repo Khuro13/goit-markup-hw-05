@@ -658,31 +658,17 @@ li {
 }
 .modal-close {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   top: 22px;
   right: 22px;
-  -webkit-transform: translate(50%, -50%);
   transform: translate(50%, -50%);
   width: 30px;
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #ffffff;
-}
-
-.button-modal:hover,
-.button-modal:focus {
-  color: #2196f3;
-  background-color: #ffffff;
-  font-family: inherit;
-  text-decoration: none;
-  border: 1px solid #2196f3;
 }
