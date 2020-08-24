@@ -388,6 +388,7 @@ li {
   border-color: transparent;
   letter-spacing: 0.03em;
   font-family: inherit;
+  cursor: pointer;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -657,6 +658,9 @@ li {
 .modal-open {
 }
 .modal-close {
+  background: #ffffff;
+
+  cursor: pointer;
   position: absolute;
   display: flex;
   -webkit-box-pack: center;
@@ -670,5 +674,4 @@ li {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background: #ffffff;
 }
